@@ -2,7 +2,7 @@
   "name": "01-proyecto-productmanager",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/ProductManager.js",
+  "main": "./src/server.js",
   "type": "module",
   "scripts": {
     "start": "node .",
@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
